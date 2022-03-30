@@ -15,4 +15,4 @@ export default function MovieDisplay({movie}){
     }
 
     return movie && movie.Title ? loaded() : loading();
-}
+} 
