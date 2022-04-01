@@ -1,4 +1,5 @@
 import { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 // WE IMPORT OUR COMPONENTS
 import MovieDisplay from "./components/MovieDisplay";
 import Form from "./components/Form";
@@ -29,7 +30,7 @@ export default function App() {
   // USE OUR COMPONENTS IN APPs RETURNED JSX
   // We pass the getMovie function as a prop called moviesearch
   return (
-    <div className="App">
+    <div className="container-fluid movie-app">
       <Form movieSearch={getMovie} />
       <MovieDisplay movie={movie} />
     </div>

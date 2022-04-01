@@ -1,3 +1,71 @@
-body {
-    background-color: red;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
 }
+body {
+  background: linear-gradient(to right, hsl(220, 82%, 65%), #78eed5);
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+.head {
+  text-align: center;
+  font-size: 3rem;
+  color: #272145;
+  text-shadow: 0 13.36px 14.896px #42275a;
+  margin: 30px;
+}
+.cards {
+  text-align: center;
+  font-size: 3rem;
+  color: #2d3c64;
+  text-shadow: 0 13.36px 14.896px #42275a;
+  margin: 40px;
+}
+.search {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  height: 40px;
+  background-color: white;
+  padding: 10px 10px;
+  min-width: 300px;
+  border: 1px solid #00748f;
+}
+
+.search-box {
+  height: 35px;
+  background-color: rgb(113, 163, 107);
+  padding: 0 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+  outline: 0;
+}
+.movie-title {
+  text-align: center;
+  font-size: 3rem;
+  color: whitesmoke;
+  text-shadow: 0 16.36px 14.896px #42275a;
+  margin: 30px;
+}
+.genre-title {
+  text-align: center;
+  font-size: 2rem;
+  color: whitesmoke;
+  text-shadow: 0 20.36px 14.896px #42275a;
+  margin: 30px;
+}
+.year {
+  text-align: center;
+  font-size: 2rem;
+  color: whitesmoke;
+  text-shadow: 0 20.36px 13.896px #42275a;
+  margin: 30px;
+}
+
+

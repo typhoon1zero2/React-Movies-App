@@ -1,17 +1,20 @@
 export default function MovieDisplay({movie}){
     const loaded = () => {
         return(
-            <>
-            <h1>{movie.Title}</h1>
-            <h2>{movie.Genre}</h2>
-            <img src={movie.Poster} alt={movie.Title}/>
-            <h2>{movie.Year}</h2>
-            </>
+            
+            <div className="text-center">
+            <h2 className="movie-title">{movie.Title}</h2>
+            <h4 className="genre-title">{movie.Genre}</h4>
+            <div className="text-center">
+            <img src={movie.Poster} className="rounded" alt={movie.Title}/>
+            </div>
+            <h2 className="year">{movie.Year}</h2>
+            </div>
         )
     }
 
     const loading = () => {
-        return <h1>No Movie to Display</h1>
+        return <h1 className="cards">No Movie to Display</h1>
     }
 
     return movie && movie.Title ? loaded() : loading();
