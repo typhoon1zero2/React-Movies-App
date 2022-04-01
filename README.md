@@ -1,8 +1,10 @@
 # Getting Started with Create React Movies App
 
 
-## Live link 
-Open [https://deft-manatee-28d51b.netlify.app/]
+# [Netlify Live Link](https://deft-manatee-28d51b.netlify.app/)
+# [Github pages Live Link](github pages link of html version)
+# [Github link of html version](github for html version here)
+
 
 In the project directory, you can run:
 
@@ -39,4 +41,5 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
+
 
