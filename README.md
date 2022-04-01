@@ -1,7 +1,8 @@
 # Getting Started with Create React Movies App
 
 
-## Available Scripts
+## Live link 
+Open [https://deft-manatee-28d51b.netlify.app/]
 
 In the project directory, you can run:
 
