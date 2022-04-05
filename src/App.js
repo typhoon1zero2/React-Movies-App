@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // WE IMPORT OUR COMPONENTS
 import MovieDisplay from "./components/MovieDisplay";
 import Form from "./components/Form";
+import { AiOutlineGithub } from "react-icons/ai";
 
 export default function App() {
   //variable with your apiKey
@@ -33,6 +34,8 @@ export default function App() {
     <div className="container-fluid movie-app">
       <Form movieSearch={getMovie} />
       <MovieDisplay movie={movie} />
+      <a className="icons" href="https://github.com/typhoon1zero2"><AiOutlineGithub /></a>
     </div>
+    
   );
 }

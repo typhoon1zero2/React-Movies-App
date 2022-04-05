@@ -67,5 +67,15 @@ img {
   text-shadow: 0 20.36px 13.896px #42275a;
   margin: 30px;
 }
+.icons {
+  width: 90vw;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 150px;
+  font-size: 100px;
+ 
+}
+
 
 
